@@ -274,8 +274,8 @@ Content-Disposition: form-data; name="%s"
 
 },
         elements:    [Element::Form],
-        author:      'Tasos "Zapotek" Laskos <tasos.laskos@arachni-scanner.com>',
-        version:     '0.4.4',
+        author:      'tomator01',
+        version:     '',
 
         issue:       {
             name:            %q{UnrestrictedFileUpload},
@@ -288,7 +288,7 @@ Content-Disposition: form-data; name="%s"
                 'WASC'          => 'http://projects.webappsec.org/w/page/13246963/SQL%20Injection',
                 'W3 Schools'    => 'http://www.w3schools.com/sql/sql_injection_test.asp'
             },
-            tags:            %w(sql blind differential injection database),
+            tags:            %w(UnrestrictedFileUpload),
             cwe:             89,
             severity:        Severity::HIGH,
             remedy_guidance: %q{
